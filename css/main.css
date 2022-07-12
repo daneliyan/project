@@ -1589,6 +1589,7 @@ a {
 }
 .price__mark {
   margin-top: 40px;
+  margin-bottom: 100px;
   font-family: "Forum", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -1598,12 +1599,14 @@ a {
 @media (max-width: 768px) {
   .price__mark {
     margin-top: 30px;
+    margin-bottom: 40px;
     font-size: 18px;
   }
 }
 @media (max-width: 576px) {
   .price__mark {
     margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 16px;
   }
 }
