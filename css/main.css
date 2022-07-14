@@ -2344,7 +2344,7 @@ a {
 }
 
 .news-page__title:hover {
-  color: var(--primary-color);
+  color: #DBC88D;
 }
 
 @media (max-width: 768px) {
