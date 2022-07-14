@@ -2340,7 +2340,13 @@ a {
   font-size: 60px;
   line-height: 110%;
   color: var(--black-color);
+  transition: color 0.3s ease-in;
 }
+
+.news-page__title:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   .news-page__title {
     font-size: 40px;
