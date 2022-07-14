@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Матвиец Э.А. | Врач-остеопат, невролог</title>
+  <link rel="preload" href="fonts/ForumRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/GothicA1-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/GothicA1-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoRegular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="./jquery.fancybox.min.css" rel="stylesheet">
+
+  <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script defer src="./jquery.fancybox.min.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__content">
+      <a href="#" class="logo">
+        <img loading="lazy" src="./img/logo.png" class="image logo__img" width="74" height="74" alt="Логотип">
+        <h2 class="logo__descr">Матвиец Эдуард Александрович</br>Врач-остеопат, невролог</h2>
+      </a>
+      <div class="header__col1">
+        <div class="header__location">
+          <img loading="lazy" src="./img/icon/pin.png" class="image header__location-img" width="20" height="20" alt="Иконка локации">
+          <div class="header__location-text">ул.Ленинградская д. 11</br>гостиница «Янтарь» офис 108.</div>
+        </div>
+        <div class="header__contacts">
+          <img loading="lazy" src="./img/icon/phone.png" class="image header__contacts-img" width="20" height="20" alt="Иконка локации">
+          <div class="header__contacts-content">
+            <a href="tel:+79322477839" class="header__contacts-phone">+7 932 247-78-39</a>
+            <a href="mailto:drmatviets@bk.ru" class="header__contacts-email">drmatviets@bk.ru</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__col2">
+        <div class="header__schedule">
+          <img loading="lazy" src="./img/icon/calendar.png" class="image header__schedule-img" width="20" height="20" alt="Иконка календаря">
+          <div class="header__schedule-content">
+            <div class="header__schedule-text">Пн-пт: 9:00–21:00</br>Сб: 9:00–15:00</br>Вс: Выходной</div>
+            <div class="social">
+              <div class="social__item"><a href="#" class="social__link"><img src="./img/icon/facebook.svg" class="image" width="25"
+                    height="25" alt="Наша страничка в Фейсбук"></a></div>
+              <div class="social__item"><a href="#" class="social__link"><img src="./img/icon/instagram.svg" class="image"
+                    width="25" height="25" alt="Наша страничка в Инстаграме"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__col3">
+        <button class="btn-reset btn">Записаться онлайн</button>
+        <button class="btn-reset callback-btn">Заказать обратный звонок</button>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Команда</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Цены</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Оборудование</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Документы</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+    <main class="main">
+      <div class="container">
+        <ol class="breadcrumb news-breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+          <li class="breadcrumb-item"><a href="page-news.html">Новости</a></li>
+          <li class="breadcrumb-item active">Наименование новости</li>
+        </ol>
+
+        <h1 class="news-page__title">Что нужно знать перед визитом?</h1>
+        <div class="news-page__data">19.04.2020 г.</div>
+
+        <div class="news-page__row row">
+          <div class="news-page__item col-12">
+            <h2 class="news-page__item-title">Как подготовиться к приему у стоматолога:</h2>
+            <p class="news-page__item-text">
+              1. Перед посещением стоматолога — покушайте, поскольку после приема, возможно, доктор порекомендует вам 2 -3 часа
+              воздержаться от приема пищи. Кроме того, это поможет избежать возможного головокружения, вызванного введением
+              анестетика;
+            </p>
+            <p class="news-page__item-text">
+              2. Не забудьте выполнить обычные гигиенические процедуры и почистите зубы щеткой, а также зубной нитью, если же такой
+              возможности у вас не было, можете воспользоваться одноразовой зубной щеткой, которую вам выдадут наши админимистраторы;
+            </p>
+            <p class="news-page__item-text">
+              3. Одевайте удобную, не сковывающую движений и дыхания одежду;
+            </p>
+            <p class="news-page__item-text">
+              4. Если у Вас есть хронические заболевания, такие как сахарный диабет, гипертония, бронхиальная астма — не забудьте взять лекарство;
+            </p>
+            <p class="news-page__item-text">
+              6. Если вы ощущаете повышенную тревожность перед приемом у стоматолога, — выпейте на ночь и перед приемом успокаивающее средство (настойка валерианы, «Новопассит» и т. п.).
+            </p>
+          </div>
+        </div>
+        <div class="news-page__row row">
+          <div class="news-page__item col-12">
+            <h2 class="news-page__item-title">Когда приходить на прием к стоматологу:</h2>
+            <p class="news-page__item-text">
+              1. Перед посещением стоматолога — покушайте, поскольку после приема, возможно, доктор порекомендует вам 2 -3 часа
+              воздержаться от приема пищи. Кроме того, это поможет избежать возможного головокружения, вызванного введением
+              анестетика;
+            </p>
+            <p class="news-page__item-text">
+              2. Не забудьте выполнить обычные гигиенические процедуры и почистите зубы щеткой, а также зубной нитью, если же такой
+              возможности у вас не было, можете воспользоваться одноразовой зубной щеткой, которую вам выдадут наши админимистраторы;
+            </p>
+            <p class="news-page__item-text">
+              3. Одевайте удобную, не сковывающую движений и дыхания одежду;
+            </p>
+            <p class="news-page__item-text">
+              4. Если у Вас есть хронические заболевания, такие как сахарный диабет, гипертония, бронхиальная астма — не забудьте взять лекарство;
+            </p>
+            <p class="news-page__item-text">
+              6. Если вы ощущаете повышенную тревожность перед приемом у стоматолога, — выпейте на ночь и перед приемом успокаивающее средство (настойка валерианы, «Новопассит» и т. п.).
+            </p>
+          </div>
+        </div>
+        <div class="news-page__row row">
+          <div class="news-page__item col-12">
+            <h2 class="news-page__item-title">Когда НЕ приходить на прием к стоматологу:</h2>
+            <p class="news-page__item-text">
+              1. Перед посещением стоматолога — покушайте, поскольку после приема, возможно, доктор порекомендует вам 2 -3 часа
+              воздержаться от приема пищи. Кроме того, это поможет избежать возможного головокружения, вызванного введением
+              анестетика;
+            </p>
+            <p class="news-page__item-text">
+              2. Не забудьте выполнить обычные гигиенические процедуры и почистите зубы щеткой, а также зубной нитью, если же такой
+              возможности у вас не было, можете воспользоваться одноразовой зубной щеткой, которую вам выдадут наши админимистраторы;
+            </p>
+            <p class="news-page__item-text">
+              3. Одевайте удобную, не сковывающую движений и дыхания одежду;
+            </p>
+            <p class="news-page__item-text">
+              4. Если у Вас есть хронические заболевания, такие как сахарный диабет, гипертония, бронхиальная астма — не забудьте взять лекарство;
+            </p>
+            <p class="news-page__item-text">
+              6. Если вы ощущаете повышенную тревожность перед приемом у стоматолога, — выпейте на ночь и перед приемом успокаивающее средство (настойка валерианы, «Новопассит» и т. п.).
+            </p>
+          </div>
+        </div>
+        <section class="contacts">
+  <div class="container contacts__container">
+    <div class="contacts__col">
+      <h2 class="contacts__title title">Контакты</h2>
+      <div class="contacts__content">
+        <div class="contacts__item contacts__item-column">
+          <h3 class="contacts__item-title">Телефон:</h3>
+          <a href="tel:+79322477839" class="contacts__item-phone">+7 932 247-78-39</a>
+          <a href="mailto:drmatviets@bk.ru" class="contacts__item-email">drmatviets@bk.ru</a>
+        </div>
+        <div class="contacts__item">
+          <h3 class="contacts__item-title">Режим работы</h3>
+          <div class="contacts__item-schedule">
+            <div class="contacts__item-schedule-day">
+              Пн-пт:</br>
+              Сб:</br>
+              Вс:
+            </div>
+            <div class="contacts__item-schedule-time">
+              9:00 — 21:00</br>
+              9:00 — 15:00</br>
+              Выходной
+            </div>
+          </div>
+        </div>
+        <div class="contacts__item">
+          <h3 class="contacts__item-title contacts__item-title-address">Адрес:</h3>
+          <div class="contacts__item-text">ул.Ленинградская д. 11 гостиница «Янтарь» офис 108.</div>
+          <button class="btn-reset btn">Записаться онлайн</button>
+        </div>
+      </div>
+      <div class="social">
+        <div class="social__item"><a href="#" class="social__link"><img src="./img/icon/facebook.svg" class="image" width="25"
+              height="25" alt="Наша страничка в Фейсбук"></a></div>
+        <div class="social__item"><a href="#" class="social__link"><img src="./img/icon/instagram.svg" class="image"
+              width="25" height="25" alt="Наша страничка в Инстаграме"></a></div>
+      </div>
+    </div>
+    <div id="map" class="map"></div>
+  </div>
+</section>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
